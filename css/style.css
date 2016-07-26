@@ -312,6 +312,10 @@ HOME AREA STYLES
 .economy h4 {
 	margin-bottom:10px;
 }
+.recognition-cover {
+	float:left;
+	width:100%;
+}
 .recognition-area {
 	float:left;
 	width:100%;
@@ -437,7 +441,7 @@ CONTENT AREA STYLES
 	padding-top:8px;
 }
 .grey-row {
-	background:#eaeaea;
+	background:#f8f0e7;
 }
 .listing-row.white-row:last-child {
 	padding-bottom:10px;
@@ -446,19 +450,29 @@ CONTENT AREA STYLES
 	display:inline-block;
 	width:47%;
 }
-.fully-customized {
+.gallery-bar.fully-customized {
     float: left;
     width: 100%;
 	text-align:center;
-	background:none;
     padding: 30px 0 15px;
 }
-.fully-customized h2 {
+.gallery-bar.fully-customized h2 {
+	float:none;
     font-family: 'Allura-Regular';
     font-size: 47px;
-    color: #000000;
     line-height: 47px;
     text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.98);
+	margin-bottom:20px;
+}
+.gallery-bar.fully-customized strong,
+.gallery-bar.fully-customized a {
+	color:#fff;
+}
+.gallery-bar.fully-customized a {
+	margin-right:15px;
+}
+.content-div.contact-area+ .recognition-cover .recognition-area {
+	border:0px;
 }
 /*
 --------------------------------------------------------------
